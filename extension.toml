@@ -1,0 +1,11 @@
+id = "nrepl"
+name = "nREPL"
+version = "0.1.0"
+schema_version = 1
+authors = ["Yuya Nishiyama <yuya.nishiyama@gmail.com>"]
+description = "Evaluate TypeScript/JavaScript in a running nREPL server (ts-nrepl) via its Language Server."
+repository = "https://github.com/nsyee/zed-nrepl"
+
+[language_servers.nrepl]
+name = "nREPL"
+languages = ["TypeScript", "TSX", "JavaScript"]
